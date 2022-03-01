@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&display=swap');
 
 
 
@@ -220,7 +220,7 @@ main{
 /**SEGUNDO CONTAINER **/
 
 #segundo-container{
-	height: 95vh;
+	height: 105vh;
 	background-color: white;
 
 	
@@ -237,7 +237,7 @@ main{
 #container-imagens{
 	display: flex;
 	gap: 100px;
-	margin-top: 100px;
+	margin-top: 50px;
 	justify-content: center;
 	height: 500px;
 	
@@ -284,7 +284,7 @@ main{
 /** BORDAS IMAGENS**/
 
 .foto-um{
-	border-radius: 5 0 0 0;
+	border-radius: 33px 33px 0px 0px;
 	width: 100%;
 	height: 20%;
 
@@ -296,5 +296,37 @@ main{
 	border: 1px solid white;
 	border-radius: 33px;
 	box-shadow: 3px 3px 40px #B8B8B8;
+}
+
+/** ULTIMO CONTAINER **/
+
+#h2-ultimo-titulo{
+	padding: 50px 50px 0px 50px;
+	margin-left: 8%;
+}
+
+.foto-predio{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 0px 60px;
+	gap: 100px;
+
+}
+
+.textos-predios{
+	width: 20%;
+	margin-left: 142px;
+	margin-top: 25px;
+	
+}
+
+.work-icon{
+	padding-bottom: 20px;
+}
+
+.p-predio{
+	padding-top: 20px;
+	color: #787878;
 }
 
