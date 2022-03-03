@@ -369,10 +369,13 @@ main{
 	color: #FFFFFF;
 	padding-top: 5%;
 	text-align: left;
-	font-size: 17px;
+	font-size: 16px;
 }
 
-
+#container-icon-dif{
+	padding: 10%;
+	height: 100%;
+}
 
 
 @media screen and (max-width: 1223px) {
