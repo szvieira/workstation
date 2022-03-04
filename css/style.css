@@ -444,6 +444,7 @@ main{
 .svg-diferencial{
 	width: 100%;
 	height: 100%;
+	margin-bottom: 2%;
 
 }
 
@@ -570,15 +571,7 @@ ul{
 .social-links{
 	display: flex;
 	flex-direction: row;
-}
-.logo-footer{
-	margin-right: 20%;
-	height: 35%;
-	width: 35%;
-}
-.img-logo-ft{
-	width: 250px;
-	height: 100%;
+
 }
 /*responsive*/
 @media(max-width: 767px){
