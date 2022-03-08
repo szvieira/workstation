@@ -275,6 +275,7 @@ main{
 	color: #787878;
 	padding: 0px 20px 20px;
 	text-align: left;
+
 }
 
 
@@ -288,7 +289,7 @@ main{
 }
 
 .imagem{
-	width: 17%;
+	width: 18%;
 	height: 100%;
 	border: 1px solid white;
 	border-radius: 33px;
@@ -549,7 +550,7 @@ ul{
 }
 .footer-col ul li a:hover{
 	color: #ffffff;
-	padding-left: 5px;
+	padding-left: 1px;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -586,6 +587,41 @@ ul{
 }
 }
 
+/** SEXTA SECTION**/
+
+#dois-textos-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1%;
+
+	
+}
+
+.h3-texto-2{
+	padding: 20px;
+	color: black;
+}
+
+#container-imagens-2{
+	display: flex;
+	gap: 6%;
+	margin-top: 50px;
+	justify-content: center;
+	height: 100%;
+	
+}
 
 
+.descrição-imagens-2{
+	
+	width: 100%;
+	color: #787878;
+	padding: 0px 20px 20px;
+	text-align: left;
+	
+}
 
+.imagem-tres{
+	height: 100%;
+}
