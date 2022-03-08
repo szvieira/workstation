@@ -16,6 +16,7 @@
 
 .desc-plans{
 	width: 35%;
+	text-align: justify;
 }
 
 .type-plan{
@@ -79,5 +80,26 @@ h3, .desc-adicionais{
 }
 
 .descrição-planos{
-	padding-bottom: 1%;
+	padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1223px) {
+
+	.desc-plans{
+		width: 30%;
+	}
+	.descrição-planos, .desc-adicionais{
+		width: 50%;
+
+	}
+	.cont-plan-texts{
+		gap: 2%;
+	}
+	.button-contratar{
+		width: 50%;
+
+	}
+	#cont-text-plan{
+	height: 195vh;
+	}
 }
